@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center> <h2 style="color: rgb(76, 255, 60);">INGRESE LOS DATOS EN LOS CAMPOS</h2> </center>
+    <form action="conexion.php" method="POST">
+        <center>
+        <h3 >Codigo:</h3>  
+        <input type="number" name="codigo">
+        <br>
+        <H3>Nombre:</H3>
+        <input type="text" name="nombre">
+        <br>
+        <H3>Carrera:</H3>
+        <input type="text" name="carrera">
+        <br>
+        <H3>Nivel:</H3>
+        <input type="text" name="nivel">
+        <br>
+        <br>
+        <input type="submit" name="action" value="GUARDAR DATOS"> 
+        <br>
+    </center>
+    <form action="eliminar.php"  method="POST">
+        Buscar el codigo del a eliminar:
+        <input type="text" name="codigo" >
+        <input type="submit" name="btn_eliminar" value="ELIMINAR">
+        
+        </form>
+
+</body>
+</html>
